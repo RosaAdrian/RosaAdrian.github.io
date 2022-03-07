@@ -1,0 +1,176 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-image:url(../imagini/bground.jpg);
+	background-size: 100%;
+
+
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* INCEPUT */
+@font-face {
+	font-family: font_nou;
+	src: url("../fonturi/Good_Morning.ttf");
+}
+a{
+	color: red;
+	text-decoration: none;
+}
+
+header{
+background-color: #333436;
+height: 149px;
+width: 100%;
+
+
+}
+
+header img{
+margin-top: 0px;
+float: left;
+}
+
+.container {
+width: 1000px;
+margin: 0 auto;
+background-color: #333436;
+
+}
+nav {
+float: right; 
+}
+nav ul{
+	margin-top: -80px;
+	margin-right: 50px;
+
+}
+nav ul li{
+display: inline-block;
+margin-left: 70px; 
+
+}
+nav ul li a {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 20px;
+}
+.film {
+	width: 100%;
+	background-color: #222;
+}
+.sectiune_text {
+	width: 100%;
+	padding: 50px 0px;
+}
+.sectiune_text h2 {
+text-align: center;
+padding-bottom: 20px;
+font-size: 30px
+font-family: arial;
+text-transform: uppercase;
+word-spacing: 10px;
+text-decoration: underline;
+text-shadow: grey;
+color: #8a2929;
+
+}
+.sectiune_text p {
+	font-size: 30px;
+	text-indent: 50px;
+	color: white;
+}
+
+.sectiune_text h1{
+	color: #8a2929;
+}
+
+footer {
+	width: 1000px;
+	background-color: #333436;
+	padding: 50px 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+
+
+}
+footer h1 {
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	text-decoration: underline;
+}
+@media (max-width: 700px){
+
+
+	
+}
+.galerie {
+ 
+  line-height: 0;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   5px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           5px;  
+}
+.galerie img {
+ 
+  width: 100% !important;
+  height: auto !important;
+  filter: grayscale(100%);
+}
+.galerie img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+.sectiune_text{
+	font-size: 50px;
+}
+.a{
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
